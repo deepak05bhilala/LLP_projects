@@ -18,7 +18,7 @@ public class MovieController {
     }
 
     public Optional<Movie> getMovie(String movieName) {
-        return Optional.ofNullable(movieMap.get(movieName));
+        return Optional.ofNullable(movieMap.get(movieName.toLowerCase()));
     }
 
     public void addMovieToCity(City city,Movie movie){

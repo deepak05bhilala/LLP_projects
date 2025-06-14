@@ -11,4 +11,5 @@ public class Seat {
     private Integer seatNumber;
     private SeatType seatType;
     private Integer seatPrice;
+    private Boolean seatBookedStatus;
 }

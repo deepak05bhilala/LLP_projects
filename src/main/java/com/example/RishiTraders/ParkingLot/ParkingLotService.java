@@ -1,6 +1,7 @@
 package com.example.RishiTraders.ParkingLot;
 
 import com.example.RishiTraders.ParkingLot.ParkingFeeMethods.ParkingFeeInterface;
+import com.example.RishiTraders.ParkingLot.Vehicle.Vehicle;
 import lombok.Data;
 
 import java.util.Date;
@@ -13,5 +14,4 @@ public class ParkingLotService {
     private Integer initialFloors;
     private Integer totalSlots;
     private Integer highestFloorNumber;
-
 }

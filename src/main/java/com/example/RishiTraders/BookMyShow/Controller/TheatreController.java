@@ -1,6 +1,7 @@
-package com.example.RishiTraders.BookMyShow;
+package com.example.RishiTraders.BookMyShow.Controller;
 
 import com.example.RishiTraders.BookMyShow.Enum.City;
+import com.example.RishiTraders.BookMyShow.Theatre;
 import org.springframework.stereotype.Component;
 
 import java.util.*;

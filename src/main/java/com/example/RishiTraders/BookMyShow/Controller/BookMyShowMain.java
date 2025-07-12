@@ -1,5 +1,6 @@
-package com.example.RishiTraders.BookMyShow;
+package com.example.RishiTraders.BookMyShow.Controller;
 
+import com.example.RishiTraders.BookMyShow.*;
 import com.example.RishiTraders.BookMyShow.Enum.City;
 import com.example.RishiTraders.BookMyShow.Enum.SeatType;
 import lombok.extern.slf4j.Slf4j;
@@ -8,9 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 @Slf4j

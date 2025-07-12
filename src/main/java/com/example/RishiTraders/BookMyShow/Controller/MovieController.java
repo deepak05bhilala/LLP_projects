@@ -1,11 +1,10 @@
-package com.example.RishiTraders.BookMyShow;
+package com.example.RishiTraders.BookMyShow.Controller;
 
 
 import com.example.RishiTraders.BookMyShow.Enum.City;
-import lombok.Data;
+import com.example.RishiTraders.BookMyShow.Movie;
 import org.springframework.stereotype.Component;
 
-import javax.swing.text.html.Option;
 import java.util.*;
 
 @Component

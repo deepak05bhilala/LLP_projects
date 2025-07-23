@@ -1,5 +1,6 @@
 package com.example.RishiTraders.InventroyManagementSystem;
 
+import com.example.RishiTraders.InventroyManagementSystem.Enum.OrderStatusEnum;
 import lombok.Data;
 import java.util.Map;
 
@@ -12,4 +13,5 @@ public class Order {
     Address address;
     Warehouse warehouse;
     User user;
+    OrderStatusEnum orderStatusEnum;
 }

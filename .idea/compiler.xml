@@ -7,13 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RishiTraders" />
+        <module name="InventoryMangementSystem" />
+        <module name="CarRentalSystem" />
+        <module name="BookMyShow" />
+        <module name="ParkingLot" />
+        <module name="SnakeNLadder" />
+        <module name="TicTacToe" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="RishiTraders" options="-parameters" />
+      <module name="BookMyShow" options="-parameters" />
+      <module name="CarRentalSystem" options="-parameters" />
+      <module name="InventoryMangementSystem" options="-parameters" />
+      <module name="LLD" options="" />
+      <module name="ParkingLot" options="-parameters" />
+      <module name="SnakeNLadder" options="-parameters" />
+      <module name="TicTacToe" options="-parameters" />
     </option>
   </component>
 </project>

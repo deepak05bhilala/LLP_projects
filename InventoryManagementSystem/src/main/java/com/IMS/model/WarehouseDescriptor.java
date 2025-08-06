@@ -1,5 +1,8 @@
-package com.example.RishiTraders.InventoryManagementSystem.main.java.com.IMS.model;
+package com.IMS.model;
+/**/
+import lombok.Data;
 
+@Data
 public class WarehouseDescriptor {
     private String id;
     private String name;

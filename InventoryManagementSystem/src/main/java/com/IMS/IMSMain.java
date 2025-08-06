@@ -1,4 +1,4 @@
-package com.example.RishiTraders.InventoryManagementSystem.main.java.com.IMS.config;
+package com.IMS;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

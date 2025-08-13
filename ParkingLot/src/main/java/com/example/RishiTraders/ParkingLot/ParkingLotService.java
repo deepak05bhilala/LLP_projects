@@ -1,12 +1,6 @@
 package com.example.RishiTraders.ParkingLot;
 
-import com.example.RishiTraders.ParkingLot.ParkingFeeMethods.ParkingFeeInterface;
-import com.example.RishiTraders.ParkingLot.Vehicle.Vehicle;
 import lombok.Data;
-
-import java.util.Date;
-import java.util.HashMap;
-import java.util.PriorityQueue;
 
 @Data
 public class ParkingLotService {

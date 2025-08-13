@@ -3,9 +3,9 @@ package com.example.RishiTraders.SnakeNLadder;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Dice {
-    private Integer numberOfDice=1;
+    private Integer numberOfDice=6;
 
-    public void Dice(Integer numberOfDice){
+    public Dice(Integer numberOfDice){
         this.numberOfDice=numberOfDice;
     }
 

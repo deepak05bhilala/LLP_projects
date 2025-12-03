@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="InventoryMangementSystem" />
         <module name="CarRentalSystem" />
-        <module name="BookMyShow" />
         <module name="ParkingLot" />
-        <module name="SnakeNLadder" />
         <module name="TicTacToe" />
+        <module name="TicTacToe2" />
+        <module name="BookMyShow" />
+        <module name="SnakeNLadder" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +26,7 @@
       <module name="ParkingLot" options="-parameters" />
       <module name="SnakeNLadder" options="-parameters" />
       <module name="TicTacToe" options="-parameters" />
+      <module name="TicTacToe2" options="-parameters" />
     </option>
   </component>
 </project>

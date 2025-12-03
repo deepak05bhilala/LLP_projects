@@ -34,6 +34,7 @@
 		<module>ParkingLot</module>
 		<module>SnakeNLadder</module>
 		<module>TicTacToe</module>
-	</modules>
+        <module>TicTacToe2</module>
+    </modules>
 
 </project>

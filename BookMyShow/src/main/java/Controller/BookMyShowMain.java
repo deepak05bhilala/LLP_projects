@@ -1,6 +1,5 @@
-package com.example.RishiTraders.BookMyShow.Controller;
+package Controller;
 
-import com.example.RishiTraders.BookMyShow.*;
 import com.example.RishiTraders.BookMyShow.Enum.City;
 import com.example.RishiTraders.BookMyShow.Enum.SeatType;
 import lombok.extern.slf4j.Slf4j;

@@ -39,6 +39,7 @@
 		<module>Decorator</module>
 		<module>Observer</module>
 		<module>AbstractFactory</module>
+		<module>State</module>
 	</modules>
 
 </project>

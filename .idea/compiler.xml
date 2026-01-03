@@ -11,6 +11,7 @@
         <module name="InventoryMangementSystem" />
         <module name="CarRentalSystem" />
         <module name="ParkingLot" />
+        <module name="State" />
         <module name="Observer" />
         <module name="Strategy" />
         <module name="Factory" />
@@ -36,6 +37,7 @@
       <module name="Observer" options="-parameters" />
       <module name="ParkingLot" options="-parameters" />
       <module name="SnakeNLadder" options="-parameters" />
+      <module name="State" options="-parameters" />
       <module name="Strategy" options="-parameters" />
       <module name="TicTacToe" options="-parameters" />
       <module name="TicTacToe2" options="-parameters" />

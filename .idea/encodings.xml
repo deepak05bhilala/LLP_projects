@@ -3,9 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/BookMyShow/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CarRentalSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Decorator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Factory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/InventoryManagementSystem/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Observer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ParkingLot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SnakeNLadder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Strategy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TicTacToe/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TicTacToe2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

@@ -33,8 +33,12 @@
 		<module>InventoryManagementSystem</module>
 		<module>ParkingLot</module>
 		<module>SnakeNLadder</module>
-		<module>TicTacToe</module>
         <module>TicTacToe2</module>
-    </modules>
+        <module>Strategy</module>
+		<module>Factory</module>
+		<module>Decorator</module>
+		<module>Observer</module>
+		<module>AbstractFactory</module>
+	</modules>
 
 </project>

@@ -7,24 +7,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Decorator" />
         <module name="InventoryMangementSystem" />
         <module name="CarRentalSystem" />
         <module name="ParkingLot" />
-        <module name="TicTacToe" />
+        <module name="Observer" />
+        <module name="Strategy" />
+        <module name="Factory" />
         <module name="TicTacToe2" />
         <module name="BookMyShow" />
         <module name="SnakeNLadder" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TicTacToe" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookMyShow" options="-parameters" />
       <module name="CarRentalSystem" options="-parameters" />
+      <module name="Decorator" options="-parameters" />
+      <module name="Factory" options="-parameters" />
       <module name="InventoryMangementSystem" options="-parameters" />
       <module name="LLD" options="" />
+      <module name="Observer" options="-parameters" />
       <module name="ParkingLot" options="-parameters" />
       <module name="SnakeNLadder" options="-parameters" />
+      <module name="Strategy" options="-parameters" />
       <module name="TicTacToe" options="-parameters" />
       <module name="TicTacToe2" options="-parameters" />
     </option>

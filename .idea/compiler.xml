@@ -17,6 +17,7 @@
         <module name="TicTacToe2" />
         <module name="BookMyShow" />
         <module name="SnakeNLadder" />
+        <module name="AbstractFactory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AbstractFactory" options="-parameters" />
       <module name="BookMyShow" options="-parameters" />
       <module name="CarRentalSystem" options="-parameters" />
       <module name="Decorator" options="-parameters" />

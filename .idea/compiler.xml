@@ -7,18 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Factory" />
+        <module name="Logger" />
+        <module name="SnakeNLadder" />
+        <module name="AbstractFactory" />
         <module name="Decorator" />
         <module name="InventoryMangementSystem" />
         <module name="CarRentalSystem" />
         <module name="ParkingLot" />
         <module name="State" />
         <module name="Observer" />
+        <module name="SnakeNLadder2" />
         <module name="Strategy" />
-        <module name="Factory" />
         <module name="TicTacToe2" />
         <module name="BookMyShow" />
-        <module name="SnakeNLadder" />
-        <module name="AbstractFactory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,9 +36,11 @@
       <module name="Factory" options="-parameters" />
       <module name="InventoryMangementSystem" options="-parameters" />
       <module name="LLD" options="" />
+      <module name="Logger" options="-parameters" />
       <module name="Observer" options="-parameters" />
       <module name="ParkingLot" options="-parameters" />
       <module name="SnakeNLadder" options="-parameters" />
+      <module name="SnakeNLadder2" options="-parameters" />
       <module name="State" options="-parameters" />
       <module name="Strategy" options="-parameters" />
       <module name="TicTacToe" options="-parameters" />

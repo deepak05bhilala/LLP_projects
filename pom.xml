@@ -40,6 +40,8 @@
 		<module>Observer</module>
 		<module>AbstractFactory</module>
 		<module>State</module>
-	</modules>
+        <module>SnakeNLadder2</module>
+        <module>Logger</module>
+    </modules>
 
 </project>

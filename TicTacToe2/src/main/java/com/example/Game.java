@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.Board.Board;
 import com.example.Enum.GameStatus;
+import com.example.GameObserver.GameSubject;
 import com.example.GameState.GameState;
 import com.example.GameState.impl.InProgressState;
 import com.example.Player.Player;
@@ -14,7 +15,7 @@ import lombok.Getter;
 import java.util.List;
 
 @Getter
-public class Game {
+public class Game extends GameSubject {
     private Board board;
     private Player player1;
     private Player player2;
@@ -34,4 +35,11 @@ public class Game {
         this.status= GameStatus.IN_PROGRESS;
     }
 
+    public void setStatus(GameStatus status) {
+        this.status = status;
+        // Notify observers when the status changes to a finished state
+        if (status != GameStatus.IN_PROGRESS) {
+            notifyObserver();
+        }
+    }
 }

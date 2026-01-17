@@ -29,7 +29,7 @@ public class Logger {
     public void addAppender(LogAppenderStrategy appender) {
         appenders.add(appender);
     }
-
+    //TODO: Need to memorise this logic
     public LogLevel getEffectiveLevel() {
         for (Logger logger = this; logger != null; logger = logger.parent) {
             LogLevel currentLevel = logger.level;
@@ -39,7 +39,7 @@ public class Logger {
         }
         return LogLevel.DEBUG; // Default root level
     }
-
+    //TODO: Need to memorise this logic
     public void log(LogLevel messageLevel, String message) {
         if (messageLevel.isGreaterOrEqual(getEffectiveLevel())) {
             LogMessage logMessage = LogMessage.builder()
@@ -50,7 +50,7 @@ public class Logger {
             callAppenders(logMessage);
         }
     }
-
+    //TODO: Need to memorise this logic
     private void callAppenders(LogMessage logMessage) {
         if (!appenders.isEmpty()) {
             LogManager.getInstance().getProcessor().process(logMessage, this.appenders);

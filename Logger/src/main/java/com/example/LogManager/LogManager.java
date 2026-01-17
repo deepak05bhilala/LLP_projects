@@ -28,7 +28,7 @@ public class LogManager {
     public Logger getLogger(String name) {
         return loggers.computeIfAbsent(name, this::createLogger);
     }
-
+    //TODO: Need to memorise this logic
     private Logger createLogger(String name) {
         if (name.equals("root")) {
             return rootLogger;

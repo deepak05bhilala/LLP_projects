@@ -1,0 +1,10 @@
+package com.example.Tag;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+public class Tag {
+    private final String name;
+}

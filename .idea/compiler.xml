@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="TaskManagementSystem" />
         <module name="Factory" />
         <module name="Logger" />
+        <module name="StackOveflow" />
         <module name="SnakeNLadder" />
         <module name="AbstractFactory" />
         <module name="Decorator" />
@@ -41,8 +43,10 @@
       <module name="ParkingLot" options="-parameters" />
       <module name="SnakeNLadder" options="-parameters" />
       <module name="SnakeNLadder2" options="-parameters" />
+      <module name="StackOveflow" options="-parameters" />
       <module name="State" options="-parameters" />
       <module name="Strategy" options="-parameters" />
+      <module name="TaskManagementSystem" options="-parameters" />
       <module name="TicTacToe" options="-parameters" />
       <module name="TicTacToe2" options="-parameters" />
     </option>

@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/TicTacToe/pom.xml" />
+        <option value="$PROJECT_DIR$/UserManagementSystem/pom.xml" />
       </set>
     </option>
   </component>

@@ -42,8 +42,9 @@
 		<module>State</module>
         <module>SnakeNLadder2</module>
         <module>Logger</module>
-        <module>StackOveflow</module>
+        <module>StackOverflow</module>
 		<module>TaskManagementSystem</module>
-	</modules>
+        <module>PubSubSystem</module>
+    </modules>
 
 </project>
